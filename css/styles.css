@@ -1,0 +1,482 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+html {
+    font-size: 13px;
+}
+
+h1 {
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #F3603B;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family:'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    padding: 0%;
+    text-align: center;
+}
+
+header nav ul a {
+    color: black;
+}
+
+header nav ul li {
+    margin-left: 28px;
+    color:#242E52;
+    
+}
+header div.icon {
+    display: none;
+    font-size: 2rem;
+}
+
+header button {
+    width: 123px;
+    height: 44px;
+    border-radius: 50px ;
+    background-color: #F3603B;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+main section.container {
+    height: calc(100vh - 194px);
+    display: flex;
+}
+
+main section.container div.pizq {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding:0px 0 0 170px ;
+}
+
+main section.container div.pizq h2 {
+    font-size: 4rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bold;
+}
+
+main section.container div.pizq p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1.2rem;
+    padding: 20px 150px 0 0;
+    color: #8C8C94;
+
+}
+
+button.gs {
+    margin-top: 30px;
+    position: relative;
+    width: 123px;
+    height: 44px;
+    border-radius: 50px ;
+    background-color: #F3603B;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+div.ilustracion {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.ctner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 20px 170px 20px 165px;
+    
+}
+
+article section h2 {
+    font-family:'Be Vietnam Pro', sans-serif; 
+    font-weight: normal;
+    font-size: 2.7rem;
+    padding: 40px 0;
+}
+
+main article section p {
+    margin-top: 20px;
+    font-family:'Be Vietnam Pro', sans-serif; 
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding: 0 30% 0 0;
+}
+
+main section ol li button {
+    position: absolute;
+    left: 0%;
+    width: 69px;
+    height: 39px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    background-color:#F3603B;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+main section ol li  {
+    position: relative;
+    right: calc(50%-69px);
+    padding: 0 20%;
+    list-style-type: none;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-weight: 1.2rem;
+    color: #B3B2B7;
+    margin-top: 42px
+    ;
+
+}
+span.tn {
+    display: block;
+    color: black;
+    padding: 0;
+}
+
+
+main section.coments {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+main section.coments h4 {
+    font-family:'Be Vietnam Pro', sans-serif; 
+    font-size: 3rem;
+    font-weight:normal;
+    padding: 109px 0;
+}
+
+main section.coments div {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-family:'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    padding: 21px 38px;
+    background-color: #fafafa;
+}
+
+main section.coments div article.card {
+    position: relative;
+    margin: 0 8px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+main section.coments div article.card img{
+    position: absolute;
+    top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+main section.coments div article p.nombre {
+    color: #242E52;
+    font-size: 1.2rem;
+}
+main section.coments div article p {
+    color: #8C8C94;
+    font-weight: normal;
+}
+div.carrusel {
+    display: none;
+}
+div.boton {
+    padding: 80px;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color:white;
+}
+
+main div button.bcoments {
+    width: 123px;
+    height: 44px;
+    border-radius: 400px ;
+    background-color: #F3603B;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+main section.contenedorr {
+    display: flex;
+    width: 100%;
+    background-color: #F3603B;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px;
+}
+section h4.hijo{
+    width: 50%;
+    font-size: 3rem;
+    font-family:'Be Vietnam Pro', sans-serif ;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    height: 10%;
+    padding: 0 100px 0 0;
+}
+
+.botonhijo{
+    width: 123px;
+    height: 44px;
+    border-radius: 400px ;
+    background-color:white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: #F3603B;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    width:100%;
+    height: 247px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1E1E26;
+    color: white;
+    padding: 10px;
+}
+
+footer div div nav a i {
+    position: relative;
+    top:30px;
+    padding: 5px;
+    color:white;
+    font-size: 1.5rem;
+}
+
+
+footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgba(255, 255, 255, 1);
+    list-style-type: none;
+    padding: 20px;
+}
+
+footer ul li a {
+    padding: 0 20px;
+    font-family:'Be Vietnam Pro', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+footer form div input {
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+footer section form div button{
+    width: 63px;
+    height: 44px;
+    border-radius: 400px ;
+    background-color: #F3603B;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border:none;
+}
+
+footer section p.probandow{
+    font-family:'Be Vietnam Pro', sans-serif;
+    font-size: 0.9rem;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: #8C8C94;
+}
+
+@media (max-width: 380px) {
+
+    header nav ul {
+        display: none;
+    }
+    header nav.icon{
+        visibility:visible;
+        font-size: 2rem;
+    }
+    header button {
+        display: none;
+    }
+    header div.icon {
+        display: block;
+        font-size: 2rem;
+    }
+    main section.container {
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+    main section.container div.pizq{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        text-align: center;
+        padding: 35px 20px;}
+
+    main section.container div.pizq h2 {
+        font-size: 3rem;
+        }
+    main section.container div.pizq p {
+        text-align: center;
+        padding: 0;
+    }
+    
+    main section.container div.ilustracion {
+        width: 100%;
+    }
+    
+    div.ilustracion img {
+        width:100%;
+        height: auto;
+    }
+    .ctner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        text-align: center;
+        padding: 20px;
+    }
+    article.ctner h2{
+        padding: 0;
+    }
+
+    article.ctner section p{
+        text-align: center;
+        padding: 0;
+    }
+    main section ol {
+        position: relative;
+        padding: 0;
+    }
+    main section span.tn {
+        height: 44px;
+        width: 100%;
+        text-align: center;
+        background-color: #FCF0EC;
+        padding-top: 12px;
+        padding-left: 20px;
+    }
+    main section ol li {
+        text-align: left;
+        margin: 20px 0;
+        padding: 10px;
+    }
+    main section ol li button {
+        position: absolute;
+        top:12px;
+    }
+    main section.coments h4 {
+        padding: 50px 10px;
+        font-size: 2rem;
+    }
+
+    main section.coments div> :nth-child(2n+1){
+        display: none;
+    }
+
+    main section.coments div article.card {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    div.carrusel {
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 158px;
+        color: #F3603B;
+    }
+    
+
+    
+    main section.contenedorr {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-items: center;
+        padding: 30px;
+        background-color: #F3603B;
+    }
+
+    main section.contenedorr h4.hijo {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+        padding:10px
+    }
+
+    footer {
+        height: 400px;
+        position:relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: #1E1E26;
+        padding: 10px;
+    }
+    footer div img{
+        position: absolute;
+        bottom: 60px;
+        margin-left: 80px;
+    }
+    footer div div nav {
+        position:relative;
+        bottom: 50px;
+        
+    }
+    
+    footer div div nav a i {
+        font-size: 2.5rem;
+        padding: 15px;
+    }
+    
+    footer section p.probandow{
+        position: absolute;
+        top: 360px;
+        left: 75px;
+}
+
